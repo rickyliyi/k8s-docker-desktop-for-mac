@@ -25,14 +25,14 @@ etcd: 保存了整个集群的状态；
 pause: 在pod中担任Linux命名空间共享的基础
 ```
 
-
-
-
-
-
 ### 参考于下
 ```
 git clone https://github.com/maguowei/k8s-docker-desktop-for-mac
 cd k8s-docker-desktop-for-mac
 ./load_images.sh
+```
+
+### 其它镜像
+```
+k8s.gcr.io/kubernetes-dashboard                     v0.1.0
 ```
