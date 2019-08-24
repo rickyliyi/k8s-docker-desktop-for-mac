@@ -32,6 +32,12 @@ cd k8s-docker-desktop-for-mac
 ./load_images.sh
 ```
 
+###  minikube start 启动时,需要的镜像
+```
+kubernetes-dashboard-amd64                          v1.10.1
+
+k8s-dns-kube-dns-amd64                              1.14.13:
+```
 ### 其它镜像
 ```
 k8s.gcr.io/kubernetes-dashboard                     v0.1.0
